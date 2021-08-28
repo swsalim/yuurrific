@@ -17,6 +17,7 @@
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.5.0",
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.0.1",
@@ -32,7 +33,7 @@
     "fibers": "^5.0.0",
     "jest": "^26.6.3",
     "postcss": "^8.2.8",
-    "prettier": "^2.2.1",
+    "prettier": "^2.0.5",
     "sass": "^1.35.1",
     "sass-loader": "^10.2.0",
     "vue-jest": "^3.0.4"

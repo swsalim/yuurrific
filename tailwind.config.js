@@ -4,6 +4,19 @@ module.exports = {
   darkMode: 'class',
   mode: 'jit',
   theme: {
+    fontFamily: {
+      sans: [
+        'Averta',
+        'Segoe\\ UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        'Open\\ Sans',
+        'Helvetica\\ Neue',
+        'sans-serif'
+      ]
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -13,48 +26,48 @@ module.exports = {
       red: colors.red,
       yellow: colors.amber,
       blue: colors.blue,
-      green: colors.green,
+      green: colors.green
     },
     container: {
-      center: true,
+      center: true
     },
     extend: {
       inset: {
         4: '1rem',
-        6: '1.5rem',
+        6: '1.5rem'
       },
       width: {
         72: '18rem',
         84: '21rem',
         96: '24rem',
-        108: '28rem',
+        108: '28rem'
       },
       maxWidth: {
         '2xl': '42rem',
         '7xl': '80rem',
         '8xl': '90rem',
-        container: '112rem',
+        container: '112rem'
       },
       zIndex: {
-        heaven: '10000',
+        heaven: '10000'
       },
       colors: {},
       boxShadow: {
-        outline: '0 0 0 3px rgba(164,202,254,.45)',
+        outline: '0 0 0 3px rgba(164,202,254,.45)'
       },
-      stroke: (theme) => ({
+      stroke: theme => ({
         red: theme('colors.red.500'),
         green: theme('colors.green.500'),
         yellow: theme('colors.yellow.500'),
-        pink: theme('colors.pink.500'),
+        pink: theme('colors.pink.500')
       }),
-      fill: (theme) => ({
+      fill: theme => ({
         red: theme('colors.red.500'),
         green: theme('colors.green.500'),
         yellow: theme('colors.yellow.500'),
-        pink: theme('colors.pink.500'),
-      }),
-    },
+        pink: theme('colors.pink.500')
+      })
+    }
   },
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -66,12 +79,12 @@ module.exports = {
     borderColor: ['responsive', 'hover', 'focus'],
     textColor: ['responsive', 'hover', 'focus'],
     display: ['responsive', 'group-hover'],
-    opacity: ['responsive', 'group-hover'],
+    opacity: ['responsive', 'group-hover']
   },
   plugins: [
     require('@tailwindcss/typography')({
-      modifiers: [],
-    }),
+      modifiers: []
+    })
   ],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
@@ -82,7 +95,7 @@ module.exports = {
       'pages/**/*.vue',
       'plugins/**/*.js',
       'common/**/*.js',
-      'nuxt.config.js',
-    ],
-  },
+      'nuxt.config.js'
+    ]
+  }
 }
