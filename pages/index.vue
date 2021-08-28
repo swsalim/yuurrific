@@ -293,7 +293,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1609748047/OpenGraph/simple-analytics.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1609748047/OpenGraph/simple-analytics.png'
           },
-          url: '/get/simpleanalytics',
+          url: 'https://referral.simpleanalytics.com/yuyu',
           tags: ['analytics', 'privacy'],
           perks: 'Get 1-month free'
         },
@@ -305,7 +305,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1618994140/OpenGraph/copy-ai.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1618994140/OpenGraph/copy-ai.png'
           },
-          url: '/get/copyai',
+          url: 'https://www.copy.ai/?via=yuyu',
           tags: ['copywriting', 'marketing'],
           perks: '40% off 1st year'
         },
@@ -317,7 +317,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1629710557/OpenGraph/namecheap.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1629710557/OpenGraph/namecheap.png'
           },
-          url: '/get/namecheap',
+          url: 'https://shareasale.com/r.cfm?b=1781996&u=1610171&m=46483&urllink=&afftrack=',
           tags: ['domain'],
           perks: '$5.95 for .COM - New customers only.'
         },
@@ -329,7 +329,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1618503031/OpenGraph/toast-log.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1618503031/OpenGraph/toast-log.png'
           },
-          url: '/get/toastlog ',
+          url: 'https://gumroad.com/a/527701107 ',
           tags: ['devtools']
         },
         {
@@ -340,7 +340,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1618502874/OpenGraph/css-scan-pro.svg',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1618502874/OpenGraph/css-scan-pro.svg'
           },
-          url: '/get/cssscanpro ',
+          url: 'https://gumroad.com/a/796136563 ',
           tags: ['devtools']
         }
       ],
@@ -353,7 +353,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1609748047/OpenGraph/simple-analytics.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1609748047/OpenGraph/simple-analytics.png'
           },
-          url: '/get/simpleanalytics',
+          url: 'https://referral.simpleanalytics.com/yuyu',
           perks: 'Get 1-month free'
         },
         {
@@ -364,7 +364,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1618994140/OpenGraph/copy-ai.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1618994140/OpenGraph/copy-ai.png'
           },
-          url: '/get/copyai',
+          url: 'https://www.copy.ai/?via=yuyu',
           perks: '40% off 1st year'
         },
         {
@@ -375,7 +375,7 @@ export default {
             '2x': '/c_scale,f_auto,q_auto,w_80/v1629710557/OpenGraph/namecheap.png',
             '3x': '/c_scale,f_auto,q_auto,w_120/v1629710557/OpenGraph/namecheap.png'
           },
-          url: '/get/namecheap',
+          url: 'https://shareasale.com/r.cfm?b=1781996&u=1610171&m=46483&urllink=&afftrack=',
           perks: '$5.95 for .COM - New customers only.'
         }
       ]
