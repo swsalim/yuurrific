@@ -96,6 +96,10 @@ export default {
     existingFilesDirectory: './netlify/'
   },
 
+  generate: {
+    fallback: true
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }
