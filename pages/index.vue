@@ -210,7 +210,7 @@
               >
                 {{ tool.perks }}
               </div>
-              <a :href="tool.url" class="js-learn-more">{{ tool.perks ? 'Get It' : 'Learn More' }}</a>
+              <a :href="tool.url" class="js-learn-more" target="_blank">{{ tool.perks ? 'Get It' : 'Learn More' }}</a>
             </div>
           </div>
         </div>
