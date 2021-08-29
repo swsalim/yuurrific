@@ -1,0 +1,17 @@
+/*
+  Referrer-Policy: origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/assets/*
+  Cache-Control: public, s-max-age=604800
+
+/assets/img/*
+  Cache-Control: public, s-max-age=604800
+
+/assets/fonts/*
+  Cache-Control: public, s-max-age=604800
+
+/sw.js
+  Cache-Control: no-cache
