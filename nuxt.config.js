@@ -61,7 +61,17 @@ export default {
         content: '71d0c6a8ce2109f220af68c0'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: '//cdn.splitbee.io' },
+      { rel: 'dns-prefetch', href: '//cdn.splitbee.io' },
+    ],
+    script: [
+      {
+        src: `https://cdn.splitbee.io/sb.js`,
+        async: true
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
